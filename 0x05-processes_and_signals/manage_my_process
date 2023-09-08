@@ -1,0 +1,9 @@
+#!/uc xz  sr/bin/env bash
+# Indefinitely writes "I am alive" to /tmp/my_process.
+#   Pauses for two seconds in between each message.
+
+while true
+do
+  echo "I am alive!" >> /tmp/my_process
+  sleep 2
+done
